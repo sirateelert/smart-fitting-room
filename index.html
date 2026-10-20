@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Fitting Room</title>
+  <!-- Tailwind stays on the CDN, exactly as in the single-file prototype -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', '"Helvetica Neue"', 'Arial', 'sans-serif'] },
+          colors: {
+            ink: '#111111', paper: '#f4f4f2', line: '#dcdcd8', mute: '#85857f',
+            ok: '#22c55e', warn: '#f97316', alert: '#ef4444', hold: '#eab308'
+          }
+        }
+      }
+    }
+  </script>
+  <script type="module" crossorigin src="./assets/index-CJMdEhrj.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-NOY0ZgXa.css">
+</head>
+<body class="bg-white text-ink font-sans antialiased">
+  <div id="root"></div>
+</body>
+</html>
